@@ -9,9 +9,13 @@
     <title>Pand Commerce</title>
 </head>
 <body>
-    <!-- header start -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
+    
+    
+    <header>
+
+      <!-- header start -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
           <a class="navbar-brand" href="#">
             <img src="images/logo.png" alt="logo of panda">
           </a>
@@ -23,28 +27,62 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
+
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Shoes</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
+
               <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
+                <a class="nav-link" href="#">Bagpacks</a>
               </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Subscribe</a>
+              </li>
+              
             </ul>
           </div>
         </div>
       </nav>
-    <header>
+
+      <!-- Image SlideShow -->
+      
+      <section class="container">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active bg-secondary text-white rounded">
+              <div class="row p-5 mb-2 d-flex align-items-center">
+                <div class="col-lg-7">
+                  <h1>Cool Dude HeadPhone</h1>
+                  <p>This is the best headphone in the world for people who just want to waste time in front of funky world</p>
+                  <h1>$420</h1>
+                  <button type="button" class="btn btn-danger">Buy Now</button>
+
+                </div>
+                <div class="col-lg-5">
+                  <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              
+            </div>
+            <div class="carousel-item">
+              <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
 
     </header>
 
